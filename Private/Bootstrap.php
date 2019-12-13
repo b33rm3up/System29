@@ -2,7 +2,7 @@
 #
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
-# System29 PDO
+# System29 Bootstrap
 #
 # @author           Taras Palasyk (https://github.com/0e29)
 # @copyright        Copyright (c) 2019, Taras Palasyuk. All rights reserved.
