@@ -24,7 +24,7 @@ $page->page_desc('');
 $page->html_body_start(); 
 
 # particular view we will be loading
-$page_view = "Private/View/Index/Layout.php";
+$page_view = "Private/View/LayoutMaster.php";
 
 # lets check if the file exists, if not lets trow a 404 template file instead
 if (file_exists($page_view)) {
