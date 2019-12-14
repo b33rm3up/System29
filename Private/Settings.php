@@ -26,5 +26,6 @@ if (!defined('INC_TOKEN')) {
     define('ROOT_DIR', realpath(__DIR__.'/..'));
 
     define('MAINTANCE_MODE', 'false');
+    define('INC_TOKEN', 'false');
 
 }
