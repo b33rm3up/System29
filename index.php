@@ -8,18 +8,18 @@
 # @copyright        Copyright (c) 2019, Taras Palasyuk. All rights reserved.
 # @licence          BSD 3-Clause License
 # @version          Version 0.1
-# @revision         December 13, 2019 @ 2:10 PM
+# @revision         December 14, 2019 @ 1:46 AM
 # @category         Page
 # @filename         index.php
 #
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
-define('INC_TOKEN', 'true');
+define('APP_INC_TOKEN.S29', 'true');
 require_once ('Private/Bootstrap.php');
 
 # file configuration values relating to META and HEAD only.
 $page = new PageEngine;
-$page->page_title(''); 
+$page->page_title('Homepage'); 
 $page->page_desc('');
 $page->html_body_start(); 
 

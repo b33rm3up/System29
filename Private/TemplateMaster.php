@@ -8,13 +8,13 @@
 # @copyright        Copyright (c) 2019, Taras Palasyuk. All rights reserved.
 # @licence          BSD 3-Clause License
 # @version          Version 0.1
-# @revision         December 13, 2019 @ 2:00 PM
+# @revision         December 14, 2019 @ 1:46 AM
 # @category         Template / Layout
 # @filename         TemplateMaster.php
 #
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
-if (!defined('INC_TOKEN')) {
+if (!defined('APP_INC_TOKEN.S29')) {
 
     http_response_code(403);
     echo 'ERROR 403<br>Access not permitted!';

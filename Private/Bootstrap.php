@@ -14,7 +14,7 @@
 #
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
-if (!defined('INC_TOKEN')) {
+if (!defined('APP_INC_TOKEN.S29')) {
 
      http_response_code(403);
      echo 'ERROR 403<br>Access not permitted!';
@@ -22,7 +22,9 @@ if (!defined('INC_TOKEN')) {
 
 } else {
 
-     require ('PDO.php');
+     require_once ('PDO.php');
+     require_once ('Settings.php');
+
      class PageEngine {
         private $title, $desc, $key, $slug, $date, $img, $css=array(), $js=array(), $js_def=array(), $body;
         
