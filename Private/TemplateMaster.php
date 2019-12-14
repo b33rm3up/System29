@@ -27,6 +27,6 @@ if (!defined('APP_INC_TOKEN.S29')) {
     # temp disabled in pre-build
     # $getMenuData = $pdo->query("SELECT * FROM `Menu` ORDER BY menu_order ASC")->fetchAll(PDO::FETCH_OBJ);
 
-    include ROOT_DIR.'/Model/TemplateMaster.php';
+    include ROOT_DIR.'TemplateMaster.php';
 
 }
