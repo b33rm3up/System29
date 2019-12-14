@@ -22,7 +22,6 @@ if (!defined('APP_INC_TOKEN.S29')) {
 
 } else {
 
-    define('APP_INC_TOKEN.S29', 'false');
     define('APP_SITE_NAME', 'System29');
     define('APP_FOOTER_CR', 'System29 WCMS');
 
