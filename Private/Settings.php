@@ -22,6 +22,9 @@ if (!defined('INC_TOKEN')) {
 
 } else {
 
+    define('SITE_URL', '');
     define('ROOT_DIR', realpath(__DIR__.'/..'));
+
+    define('MAINTANCE_MODE', 'false');
 
 }
