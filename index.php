@@ -4,7 +4,7 @@
 #
 # System29 Page
 #
-# @author           Taras Palasyk (https://github.com/0e29)
+# @author           Taras Palasyk (https://github.com/b33rm3up)
 # @copyright        Copyright (c) 2019, Taras Palasyuk. All rights reserved.
 # @licence          BSD 3-Clause License
 # @version          Version 0.1
